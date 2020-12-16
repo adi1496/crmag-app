@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.a587b96f.chunk.css",
-    "main.js": "/static/js/main.647dbe1d.chunk.js",
-    "main.js.map": "/static/js/main.647dbe1d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.06418f48.js",
-    "runtime-main.js.map": "/static/js/runtime-main.06418f48.js.map",
-    "static/js/2.ec5b3b9e.chunk.js": "/static/js/2.ec5b3b9e.chunk.js",
-    "static/js/2.ec5b3b9e.chunk.js.map": "/static/js/2.ec5b3b9e.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.a587b96f.chunk.css.map": "/static/css/main.a587b96f.chunk.css.map",
-    "static/js/2.ec5b3b9e.chunk.js.LICENSE.txt": "/static/js/2.ec5b3b9e.chunk.js.LICENSE.txt",
-    "static/media/banner.styles.scss": "/static/media/banner2.750b08d9.jpg",
-    "static/media/login-signup-forgot.styles.scss": "/static/media/bg.4d705c28.jpg",
-    "static/media/header.2bd88a5a.svg": "/static/media/header.2bd88a5a.svg",
-    "static/media/login.09e13045.svg": "/static/media/login.09e13045.svg"
+    "main.css": "/crmag-app/static/css/main.44c8c880.chunk.css",
+    "main.js": "/crmag-app/static/js/main.647dbe1d.chunk.js",
+    "main.js.map": "/crmag-app/static/js/main.647dbe1d.chunk.js.map",
+    "runtime-main.js": "/crmag-app/static/js/runtime-main.706fbac3.js",
+    "runtime-main.js.map": "/crmag-app/static/js/runtime-main.706fbac3.js.map",
+    "static/js/2.ec5b3b9e.chunk.js": "/crmag-app/static/js/2.ec5b3b9e.chunk.js",
+    "static/js/2.ec5b3b9e.chunk.js.map": "/crmag-app/static/js/2.ec5b3b9e.chunk.js.map",
+    "index.html": "/crmag-app/index.html",
+    "static/css/main.44c8c880.chunk.css.map": "/crmag-app/static/css/main.44c8c880.chunk.css.map",
+    "static/js/2.ec5b3b9e.chunk.js.LICENSE.txt": "/crmag-app/static/js/2.ec5b3b9e.chunk.js.LICENSE.txt",
+    "static/media/banner.styles.scss": "/crmag-app/static/media/banner2.750b08d9.jpg",
+    "static/media/login-signup-forgot.styles.scss": "/crmag-app/static/media/bg.4d705c28.jpg",
+    "static/media/header.2bd88a5a.svg": "/crmag-app/static/media/header.2bd88a5a.svg",
+    "static/media/login.09e13045.svg": "/crmag-app/static/media/login.09e13045.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.06418f48.js",
+    "static/js/runtime-main.706fbac3.js",
     "static/js/2.ec5b3b9e.chunk.js",
-    "static/css/main.a587b96f.chunk.css",
+    "static/css/main.44c8c880.chunk.css",
     "static/js/main.647dbe1d.chunk.js"
   ]
 }
