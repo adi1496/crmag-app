@@ -1,0 +1,105 @@
+.section-login {
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    background-image: linear-gradient(rgba(#39e6b5, .8) 5%, rgba(#39e6b5, .2) 30%, rgba(#1e9472, .1) 70%) ,url(./../../assets/bg.jpg);
+    background-size: cover;
+    
+    &__container {
+        width: 80rem;
+        display: grid;
+        grid-template-columns: max-content 1fr;
+        margin: 0 auto;
+        align-items: center;
+        background-color: #dfdbdb;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+}
+
+.menu {
+    // display: flex;
+    // flex-direction: column;
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    // align-items: stretch;
+    border-right: 1px dotted #2b2a2a;
+
+    & .a {
+        height: 100%;
+    }
+
+    &__item {
+        width: 22rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+        cursor: pointer;
+
+
+        &--text {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        &--icon {
+            width: 4rem;
+            height: 4rem;
+            fill: currentColor;
+        }
+    }
+    
+    &__active{
+        background-color: #29c296;
+        color: white;
+    }
+}
+
+
+.login-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem 2rem;
+
+    padding: 3rem;
+
+
+    &__welcome {
+        grid-column: 1 / -1;
+        justify-self: center;
+        cursor: none;
+    }
+
+    &__text {
+        grid-column: 1 / -1;
+        justify-self: center;
+    }
+
+    &__input {
+        height: 4rem;
+        border: none;
+        outline: none;
+        font-size: 1.7rem;
+        color: #29c296;
+        padding: 0 2rem;
+        border-radius: 10px;
+
+        &:focus {
+            border: 2px solid #39e6b5;
+        }
+
+        &--big {
+            grid-column: 1 / -1;
+        }
+    }
+
+    &__link {
+        grid-column: 1 / -1;
+        justify-self: center;
+        font-size: 1.6rem;
+    }
+}

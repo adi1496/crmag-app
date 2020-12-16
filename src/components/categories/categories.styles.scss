@@ -1,0 +1,48 @@
+.categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 25rem);
+    gap: 6rem 2rem;
+    
+    
+    &__card{
+        width: 25rem;
+        height: 40rem;
+        background-size: cover;
+        border-radius: 10px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        overflow: hidden;
+        background-color: #dbd6d6;
+        box-shadow: 0 2rem 2rem rgba(#b1b1b1, .8);
+        transition: all .3s;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+
+        &:hover {
+            transform: translateY(-5px);
+        }
+
+        &:hover .categories__img {
+            transform: scale(1.1);
+        }
+
+    }
+
+    &__img {
+        width: 100%;
+        height: 20rem;
+        object-fit: cover;
+        transition: .5s;
+        cursor: pointer;
+    }
+
+    &__text {
+        font-size: 1.5rem;
+    }
+
+    
+}

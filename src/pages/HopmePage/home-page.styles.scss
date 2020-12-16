@@ -1,0 +1,64 @@
+.main {
+    // url(./../../assets/bg.jpg);
+    // padding: 10rem 10rem 20rem 10rem;
+    max-width: 120rem;
+    margin: 10rem auto 20rem auto;
+    // background-image: linear-gradient(rgba(#b1b1b1, .5), rgba(#000000, .5));
+    // background-color: rgb(236, 232, 232);
+    background-size: cover;
+}
+
+
+@keyframes come-from-left {
+    0%{
+        transform: translateX(-40rem);
+        opacity: 0;
+    }
+
+    50%{
+        opacity: .8;
+        transform: translateX(1rem);
+    }
+
+    80%{
+        transform: skewY(5deg);
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes come-from-right {
+    0%{
+        transform: translateX(40rem);
+        opacity: 0;
+    }
+
+    50%{
+        opacity: .8;
+        transform: translateX(-10rem);
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes rotate {
+    0%{
+        transform: rotateZ(30deg);
+    }
+
+    50%{
+
+    }
+
+    100%{
+
+    }
+}

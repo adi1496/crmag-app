@@ -1,38 +1,175 @@
-.App {
-  text-align: center;
+/*
+Colors
+#000000
+#b1b1b1
+#39e6b5
+#29c296
+#1e9472
+*/
+
+
+
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  line-height: 1.5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*1rem*/
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: 'Ubuntu';
+  /* padding: 1rem 4rem; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a{
+  text-decoration: none;
+  color: inherit;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.heading-1 {
+  font-size: 10rem;
+  font-family: 'Arbutus Slab';
+  /* color: #202020; */
+  color: transparent;
+  /* background-image: linear-gradient(to right, #202020, #b1b1b1); */
+  background-image: linear-gradient(to right, #1e9472, #39e6b5);
+  background-clip: text;
+  animation: come-from-left 1s ease-in;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.heading-2 {
+  font-size: 4rem;
+  font-weight: 300;
+  color: transparent;
+  background-image: linear-gradient(to right, #000000, #1e9472);
+  background-clip: text;
+  display: inline-block;
+  transition: all .3s;
+}
+
+.heading-2:hover {
+  transform: skewX(7deg);
+}
+
+.heading-3 {
+  font-size: 2.5rem;
+  color: #1e9472;
+  cursor: pointer;
+}
+
+.heading-4 {
+  font-size: 2rem;
+}
+
+
+/* BUTTONS */
+.add-to-cart-btn {
+  justify-self: stretch;
+  margin-bottom: 1rem;
+  border: none;
+  height: 5rem;
+  font-family: inherit;
+  font-size: 1.7rem;
+  background-image: radial-gradient(#39e6b5, #1e9472);
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.add-to-cart-btn::before,
+.add-to-cart-btn::after {
+  content: "";
+  position: absolute;
+  font-size: 3rem;
+  transform: translate(0, -50%);
+}
+
+.add-to-cart-btn::before{
+  top: 50%;
+  left: 1rem;
+}
+
+.add-to-cart-btn::after {
+  top: 50%;
+  right: 1rem;
+}
+
+.add-to-cart-btn:hover {
+  background-image: radial-gradient(#000000, #b1b1b1);
+  color: #39e6b5;
+}
+
+.add-to-cart-btn:hover::before,
+.add-to-cart-btn:hover::after {
+  content: "🛒";
+  color: transparent;
+  background-color: #000000;
+  background-clip: text;
+}
+
+
+.see-more-btn {
+  align-self: stretch;
+  margin-bottom: 1rem;
+  border: none;
+  height: 5rem;
+  font-family: inherit;
+  font-size: 1.7rem;
+  background-image: radial-gradient(#39e6b5, #1e9472);
+  outline: none;
+  cursor: pointer;
+}
+
+.see-more-btn:hover {
+  background-image: radial-gradient(#000000, #b1b1b1);
+  color: #39e6b5;
+}
+
+
+.btn-form {
+  grid-column: 1 / -1;
+  height: 4rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #39e6b5;
+  font-size: 1.6rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-form:hover {
+  background-color: #1e9472;
+  color: whitesmoke;
+}
+
+.btn-form:active {
+  transform: scale(.98);
+}
+
+
+
+
+
+
+/* UTILIS */
+
+
+.u-margin-bottom-1 {
+  margin-bottom: 1rem;
+}
+
+.u-margin-top-3 {
+  margin-top: 3rem;
 }
