@@ -27,10 +27,17 @@ const HeaderOption = ({children, icon, appProps, id}) => {
 
             {
                 id === 'account' ?  
-                    <HeaderOptionDropDownAccount appProps={appProps} />
-                    :
-                    ''
+                    <HeaderOptionDropDownAccount id={id} user={appProps.user} handleUserChange={appProps.handleUserChange} />
+                    : ''
             }
+
+            {
+                id === 'cart' ? 
+                <HeaderOptionDropDownAccount id={id} cart={appProps.cart} />
+                : ''
+            }
+
+
         </div>
     )
 }

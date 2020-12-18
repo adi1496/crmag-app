@@ -1,7 +1,8 @@
 .section-login {
     display: flex;
     align-items: center;
-    min-height: 70vh;
+    // min-height: 70vh;
+    height: 90vh;
     background-image: linear-gradient(rgba(#39e6b5, .8) 5%, rgba(#39e6b5, .2) 30%, rgba(#1e9472, .1) 70%) ,url(./../../assets/bg.jpg);
     background-size: cover;
     

@@ -88,7 +88,7 @@ class App extends React.Component {
   }
 
   render() {
-    console.log(this.state.cart);
+    // console.log(this.state.cart);
     return (
       <div>
         

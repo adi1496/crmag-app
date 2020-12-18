@@ -28,6 +28,7 @@ html {
 body {
   font-family: 'Ubuntu';
   /* padding: 1rem 4rem; */
+  /* overflow-x: hidden; */
 }
 
 a{

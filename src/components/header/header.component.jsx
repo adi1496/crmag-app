@@ -38,7 +38,7 @@ class Header extends React.Component {
                 <HeaderOption id='wishlist' icon="icon-heart-outlined">Wishlist</HeaderOption>
 
                 
-                <HeaderOption id='cart' icon="icon-shopping-cart">Cart</HeaderOption>
+                <HeaderOption id='cart' appProps={this.props} icon="icon-shopping-cart">Cart</HeaderOption>
 
             </header>
         )

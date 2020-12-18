@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom';
 
 
-const OptionDropItem = ({children, appProps, link, ...otherProps}) => {
+const AccountDropItem = ({children, appProps, link, ...otherProps}) => {
 
     if(link !== undefined) {
         return(
@@ -18,4 +18,4 @@ const OptionDropItem = ({children, appProps, link, ...otherProps}) => {
     }
 }
 
-export default OptionDropItem;
+export default AccountDropItem;
